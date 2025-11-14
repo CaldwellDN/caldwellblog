@@ -1,4 +1,4 @@
-baseURL = 'https://CaldwellDN.duckdns.org/'
+baseURL = 'https://CaldwellDN.net/'
 languageCode = 'en-us'
 title = 'Daniel Caldwell'
 theme = 'xmin'
@@ -9,23 +9,28 @@ theme = 'xmin'
     footer = "&copy; [Daniel Caldwell](http://CaldwellDN.duckdns.org) 2025 | [Github](https://github.com/CaldwellDN)"
 
 [menu]
-    
     [[menu.main]]
         name = "Home"
-        url = ""
+        url = "https://google.com"
         weight = 1
+    [[menu.main]]
+        name = "About"
+        url = ""
+        weight = 2
     [[menu.main]]
         name = "Posts"
         url = "posts/"
-        weight = 2
+        weight = 3
     [[menu.main]]
         name = "Categories"
         url = "categories/"
-        weight = 3
+        weight = 4
     [[menu.main]]
         name = "Tags"
         url = "tags/"
-        weight = 4
+        weight = 5
 
 [markup.goldmark.renderer]
     unsafe = true
+
+paginate = 1000

@@ -1,7 +1,7 @@
 +++
 date = '2025-09-21T19:20:42-04:00'
 draft = false
-title = 'Home Page'
+title = 'About Page'
 +++
 
 # About 
